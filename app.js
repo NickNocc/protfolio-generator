@@ -132,7 +132,7 @@ promptUser()
   .then(portfolioData => {
     // will be uncommented in lesson 4
     const pageHTML = generatePage(portfolioData);
-    // fs.writeFile('./index.html', pageHTML, err => {
+    fs.writeFile('./index.html', pageHTML, err => {
     //   if (err) throw new Error(err);
-    // });
+    });
   });
